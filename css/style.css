@@ -1,0 +1,66 @@
+
+/* _-_-_-_-_-_-_-_-_-_-_-_-_ common styles _-_-_-_-_-_-_-_-_-_-_-_-_ */
+
+@font-face {
+	font-family: light_font;
+	src: url(/media/font/roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+	font-family: regular_font;
+	src: url(/media/font/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: bold_font;
+	src: url(/media/font/roboto/Roboto-Bold.ttf);
+}
+
+body, html {
+    margin: 0px; padding: 0px;
+}
+
+.section_title {
+    font-family: regular_font; font-size: 30px; color: rgba(0, 0, 0, 0.875); text-align: center;
+}
+
+/* _-_-_-_-_-_-_-_-_-_-_-_-_ styles for section_1 _-_-_-_-_-_-_-_-_-_-_-_-_ */
+
+.section_1 {
+    width: 800px; margin: 100px auto 0;
+    overflow: hidden; background-color: rgba(0, 0, 0, 0);
+}
+
+.section_1 .photo {
+    float: left;
+    width: 300px; height: 300px;
+
+    background-color: rgba(0, 0, 0, 0.1); background-image: url(/media/photo.jpg); background-size: cover; background-position: center center;
+    border-radius: 80px 20px; transition: 0.5s cubic-bezier(.68,-0.55,.27,1.55);
+}
+
+.section_1 .photo:hover {
+    border-radius: 20px 80px;
+}
+
+.section_1 .extra_about_container {
+    float: right;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.section_1 .extra_about_container .title_text {
+    font-family: regular_font; font-size: 60px; color: rgba(0, 0, 0, 0.875);
+}
+
+.section_1 .extra_about_container .level_text {
+    font-family: light_font; font-size: 30px; color: rgba(0, 0, 0, 0.625); text-transform: uppercase;
+}
+
+
+/* _-_-_-_-_-_-_-_-_-_-_-_-_ styles for section_2 _-_-_-_-_-_-_-_-_-_-_-_-_ */
+
+.section_2 {
+    width: 800px; margin: 50px auto 0;
+    overflow: hidden; background-color: rgba(0, 0, 0, 0);
+}
