@@ -13,7 +13,7 @@
 						});
 
             $('.for_shadow').css({
-                'box-shadow' : '0px -100px 50px 0px #fff inset'
+                'box-shadow' : '0px -130px 50px 0px #fff inset'
             });
 
             $('.more_details').css({
@@ -26,7 +26,7 @@
 						button_status = 1;
 
 						$('.section_3').css({
-								'height' : '500px'
+								'height' : '520px'
 						});
 
             $('.for_shadow').css({
@@ -39,3 +39,8 @@
             });
 				}
 		});
+
+    $(document).ready(function(){
+    		$(".jqueryForm").addClass("styler");
+    		$(".jqueryForm").styler();
+    });
