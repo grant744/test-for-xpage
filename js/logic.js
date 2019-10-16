@@ -26,7 +26,7 @@
 						button_status = 1;
 
 						$('.section_3').css({
-								'height' : '520px'
+								'height' : '640px'
 						});
 
             $('.for_shadow').css({
